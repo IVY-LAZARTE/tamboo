@@ -1,0 +1,63 @@
+.hero-m {
+  margin-top: 8rem;
+}
+
+@media (min-width: 1080px) {
+  .hero-m {
+    margin-top: 12rem;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header__menu ul li {
+    margin-right: 1.5rem !important;
+  }
+}
+
+.logo-gamdpl {
+  margin-top: 0.5rem;
+  width: 4rem;
+}
+
+.banner__pic img {
+  transition: ease-in-out 0.5s !important;
+}
+
+.banner__pic:hover img {
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+/* .banner__pic {
+  overflow: hidden;
+} */
+.img-carousel img {
+  width: 10rem !important;
+  display: block !important;
+  margin: auto !important;
+}
+@media (min-width: 768px) {
+  .img-carousel img {
+    width: 12rem !important;
+  }
+}
+
+.footer__widget__social .fa {
+  font-size: 2rem !important;
+}
+
+/* Mapa */
+/* Start: Google Maps Responsive */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* End: Google Maps Responsive */
