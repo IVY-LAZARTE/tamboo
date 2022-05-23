@@ -52,7 +52,7 @@ class CreateCategory extends Component
         'createForm.responsable' => 'required',
         'createForm.slug' => 'required|unique:categories,slug',
         'createForm.numero_contacto' => 'required|max:8',
-        'createForm.numero_cuenta' => 'required|max:11',
+        'createForm.numero_cuenta' => 'required|max:15',
         'createForm.user_id' => 'required',
         'createForm.image' => 'required|image|max:7168',
     ];
